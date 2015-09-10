@@ -41,6 +41,13 @@ CanvaraDatasource.prototype.model = function(tableName, primaryKey, schema) {
   return model;
 };
 
+/**
+ * Return the dynamodb service instance associated with this datasource
+ */
+CanvaraDatasource.prototype.getDynamodb = function() {
+  return this.dynamodb;
+};
+
 // export the Schema
 CanvaraDatasource.Schema = Schema;
 
