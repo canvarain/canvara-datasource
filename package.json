@@ -1,0 +1,48 @@
+{
+  "name": "@canvara/canvara-datasource",
+  "description": "canvara: common datasource module",
+  "version": "1.0.0",
+  "private": true,
+  "author": {
+    "name": "Ritesh Sangwan",
+    "email": "sangwan.ritesh@yahoo.in"
+  },
+  "keywords": [
+    "canvara",
+    "datasource",
+    "dynamodb",
+    "aws"
+  ],
+  "bugs": {
+    "url": "https://github.com/billidin/canvara-datasource/issues"
+  },
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/billidin/canvara-datasource.git"
+  },
+  "homepage": "https://github.com/billidin/canvara-datasource",
+  "license": "UNLICENSED",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^1.4.2",
+    "aws-sdk": "^2.1.50",
+    "common-errors": "^0.5.1",
+    "lodash": "^3.10.1",
+    "node-uuid": "^1.4.3"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "load-grunt-tasks": "^0.4.0"
+  },
+  "engines": {
+    "node": "0.12.x"
+  },
+  "files": [
+    "Readme.md",
+    "lib",
+    "index.js"
+  ],
+  "scripts": {}
+}
